@@ -1,6 +1,7 @@
 let searchButton = document.getElementById("button-addon1")
 let myModal = new bootstrap.Modal(document.querySelector('.modal'));
 let thirdCard = document.getElementById("card3")
+console.log("hello")
 function displaySearch() {
     let cityName = document.getElementById("cityChoice").value;
     let numResults = document.getElementById("resultsNumber").value;
